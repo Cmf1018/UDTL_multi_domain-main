@@ -1,0 +1,47 @@
+09-25 22:34:42 method: DA
+09-25 22:34:42 model_name: cnn_features_1d
+09-25 22:34:42 data_name: multi_CWRU
+09-25 22:34:42 data_dir: D:\Data\西储大学轴承数据中心网站
+09-25 22:34:42 transfer_task: [[0, 1], [3]]
+09-25 22:34:42 normlizetype: mean-std
+09-25 22:34:42 cuda_device: 0
+09-25 22:34:42 checkpoint_dir: .\checkpoint
+09-25 22:34:42 pretrained: False
+09-25 22:34:42 batch_size: 64
+09-25 22:34:42 num_workers: 0
+09-25 22:34:42 bottleneck: True
+09-25 22:34:42 bottleneck_num: 256
+09-25 22:34:42 last_batch: False
+09-25 22:34:42 distance_metric: False
+09-25 22:34:42 distance_loss: MK-MMD
+09-25 22:34:42 trade_off_distance: Step
+09-25 22:34:42 lam_distance: 1
+09-25 22:34:42 domain_adversarial: False
+09-25 22:34:42 adversarial_loss: CDA+E
+09-25 22:34:42 hidden_size: 1024
+09-25 22:34:42 trade_off_adversarial: Step
+09-25 22:34:42 lam_adversarial: 1
+09-25 22:34:42 opt: adam
+09-25 22:34:42 lr: 0.001
+09-25 22:34:42 momentum: 0.9
+09-25 22:34:42 weight_decay: 1e-05
+09-25 22:34:42 lr_scheduler: step
+09-25 22:34:42 gamma: 0.1
+09-25 22:34:42 steps: 150, 250
+09-25 22:34:42 middle_epoch: 1
+09-25 22:34:42 max_epoch: 2
+09-25 22:34:42 print_step: 50
+09-25 22:34:42 using 1 cpu
+09-25 22:34:42 -----Epoch 0/1-----
+09-25 22:34:42 current lr: [0.001, 0.001, 0.001]
+09-25 22:34:42 Epoch: 0 [0/2275], Train Loss: 2.5248 Train Acc: 0.0625,243.0 examples/sec 0.26 sec/batch
+09-25 22:34:50 Epoch: 0 source_train-Loss: 1.6572 source_train-Acc: 0.3943, Cost 8.3 sec
+09-25 22:34:51 Epoch: 0 source_val-Loss: 1.0702 source_val-Acc: 0.7118, Cost 0.7 sec
+09-25 22:34:51 Epoch: 0 target_val-Loss: 1.1259 target_val-Acc: 0.6440, Cost 0.4 sec
+09-25 22:34:51 -----Epoch 1/1-----
+09-25 22:34:51 current lr: [0.001, 0.001, 0.001]
+09-25 22:34:57 Epoch: 1 [896/2275], Train Loss: 1.4312 Train Acc: 0.4737,222.1 examples/sec 0.29 sec/batch
+09-25 22:35:04 Epoch: 1 source_train-Loss: 0.7743 source_train-Acc: 0.7147, Cost 12.6 sec
+09-25 22:35:05 Epoch: 1 source_val-Loss: 0.3216 source_val-Acc: 0.8612, Cost 0.7 sec
+09-25 22:35:05 Epoch: 1 target_val-Loss: 0.6331 target_val-Acc: 0.7670, Cost 0.4 sec
+09-25 22:35:05 save best model epoch 1, acc 0.7670

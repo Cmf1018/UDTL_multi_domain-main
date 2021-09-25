@@ -1,0 +1,34 @@
+09-25 18:02:12 method: DA
+09-25 18:02:12 model_name: cnn_features_1d
+09-25 18:02:12 data_name: multi_CWRU
+09-25 18:02:12 data_dir: D:\Data\西储大学轴承数据中心网站
+09-25 18:02:12 transfer_task: [[0, 1], [3]]
+09-25 18:02:12 normlizetype: mean-std
+09-25 18:02:12 cuda_device: 0
+09-25 18:02:12 checkpoint_dir: .\checkpoint
+09-25 18:02:12 pretrained: False
+09-25 18:02:12 batch_size: 64
+09-25 18:02:12 num_workers: 0
+09-25 18:02:12 bottleneck: True
+09-25 18:02:12 bottleneck_num: 256
+09-25 18:02:12 last_batch: False
+09-25 18:02:12 distance_metric: False
+09-25 18:02:12 distance_loss: MK-MMD
+09-25 18:02:12 trade_off_distance: Step
+09-25 18:02:12 lam_distance: 1
+09-25 18:02:12 domain_adversarial: False
+09-25 18:02:12 adversarial_loss: CDA+E
+09-25 18:02:12 hidden_size: 1024
+09-25 18:02:12 trade_off_adversarial: Step
+09-25 18:02:12 lam_adversarial: 1
+09-25 18:02:12 opt: adam
+09-25 18:02:12 lr: 0.001
+09-25 18:02:12 momentum: 0.9
+09-25 18:02:12 weight_decay: 1e-05
+09-25 18:02:12 lr_scheduler: step
+09-25 18:02:12 gamma: 0.1
+09-25 18:02:12 steps: 150, 250
+09-25 18:02:12 middle_epoch: 50
+09-25 18:02:12 max_epoch: 300
+09-25 18:02:12 print_step: 50
+09-25 18:02:12 using 1 cpu
